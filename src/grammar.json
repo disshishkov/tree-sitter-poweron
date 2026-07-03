@@ -1,5 +1,4 @@
 {
-  "$schema": "https://tree-sitter.github.io/tree-sitter/assets/schemas/grammar.schema.json",
   "name": "poweron",
   "rules": {
     "source_file": {
@@ -4414,17 +4413,17 @@
       "type": "PATTERN",
       "value": "[eE][nN][tT][eE][rR][dD][aA][tT][eE]"
     },
-    "enternumber": {
+    "enterline": {
       "type": "PATTERN",
-      "value": "[eE][nN][tT][eE][rR][nN][uU][mM][bB][eE][rR]"
+      "value": "[eE][nN][tT][eE][rR][lL][iI][nN][eE]"
     },
     "entermoney": {
       "type": "PATTERN",
       "value": "[eE][nN][tT][eE][rR][mM][oO][nN][eE][yY]"
     },
-    "enterline": {
+    "enternumber": {
       "type": "PATTERN",
-      "value": "[eE][nN][tT][eE][rR][lL][iI][nN][eE]"
+      "value": "[eE][nN][tT][eE][rR][nN][uU][mM][bB][eE][rR]"
     },
     "enterrate": {
       "type": "PATTERN",
@@ -7270,6 +7269,5 @@
     "primary_expression",
     "statement",
     "define_statement"
-  ],
-  "reserved": {}
+  ]
 }
